@@ -1,0 +1,113 @@
+{"intents":[
+         
+       {"tag": "greetings",
+          "patterns": ["Hello","Hi","Hey","Hi there"],
+          "responses": ["Dear customer welcome to dominos pizza services"],
+          "context": [""]
+          },
+
+          {"tag": "Bye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+         },
+   
+         {"tag":"order_food",
+         "patterns":["order food","food order","order","I want to order food",
+                    "Can I have some pizza","Are pizza's available","What variety of pizzas are available","Is pizza available"
+                    ,"Some pizza please","Can I order pizza","Are veg pizzas available","Are non veg pizzas available","I am hungry",
+                    "I want some food","is food available","Can I view the menu please","Menu","Menu please","What is the menu","What can i order"
+                    ,"pizza","Is combo available","Combo please","Combo","What is today's menu","What food is there today","Is food there",
+                    "Best pizza in town","Best pizza in city","Best non-veg pizza in town","Best veg pizza in town","Best veg pizza in city",
+                    "Best non veg pizza in city","Veg Pizza","Non-veg pizza","Can you show menu","Can I see the menu","What have you got","What can I get","Show menu",
+                    "Show what I can get","Menu","menu","I am hungry"],
+         "responses": ["Explore our menu"],
+         "context":[""]
+         },
+
+         {"tag":"cancel_food",
+         "patterns":["cancel the order","cancel order","cancel","cancle"],
+         "responses": ["your order cancelled successfully"],
+         "context":[""]
+         },
+
+          {"tag":"edit_order", 
+         
+          "patterns":["I want to edit my order","edit order","edit","I want to change something",
+                     "I want to change my order","Can I edit my order","I want to edit","Request to edit"],
+   
+          "responses":["Do you want to add/Remove/Cancel"],
+  
+          "context":[""]
+         }, 
+         
+         {"tag":"add_menu",
+         
+          "patterns":["add","add item","add items"],
+   
+          "responses":[""],
+  
+          "context":[""]
+         },
+     
+         {"tag":"remove_menu",
+         
+          "patterns":["remove","remove items","remove item"],
+   
+          "responses":[" "],
+  
+          "context":[""]
+         },
+      
+         {"tag":"confirm_order",
+         "patterns":["confirm order","I want to confirm order","confirm"," want to confirm order"],
+         "responses":["Once you confirm your order you can't edit or cancel your order"],
+         "context":[""]
+         },
+  
+         {"tag":"food_item",
+         "patterns":["chicken dominator"],
+         "responses":["what size do you prefer?"],
+         "context":[""]
+         },
+
+         {"tag":"pizza_size",
+    
+          "patterns":["small","large","medium"],
+          "responses":[],
+          "context":[""]     
+         },
+
+         {"tag": "Non-Veg Pizza",
+          
+          "patterns": ["Non-veg Pizza","Non-Veg pizzas","Non-Veg pizzas please","Non-Veg pizza please","Non-Veg","Non-Veg please"],
+          "responses": ["Our Range of Non-Veg pizzas are"],
+          "context": [""]
+          },
+
+          {"tag": "Veg Pizza",
+          
+           "patterns": ["veg Pizza","Veg pizzas","Veg pizzas please","Veg pizza please","Veg","Veg please"],
+           "responses": ["Our Range of Veg pizzas are"],
+           "context": [""]
+          },
+
+          {"tag": "Beverages",
+           "patterns": ["Beverages","Beverage","Beverages please","Beverage please","Some beverage please","Some beverages please"],
+           "responses": ["Our Range of Beverages are"],
+           "context": [""]
+          },
+
+          {"tag": "Slides",
+           "patterns": ["Slides","Slide","Slides please","Slide please","Some slide please","Some slides please"],
+           "responses": ["Our Range of Slides are"],
+           "context": [""]
+          }
+        
+            ]
+ 
+}    
+       
+
+        
+         
