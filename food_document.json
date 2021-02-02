@@ -1,36 +1,39 @@
  
 
+ 
+
 {"intents":[
             {"tag":"Non-Veg Pizza",
  
-             "items":[],
+             "items":["chicken pepperoni","Pepper Barbecue","Dominator","chicken Sausage","pepper barbecue and onion","Indi chicken tikka","Moroccan Spice Pasta Pizza"],
   
-             "size":[],
+             "size":["small","medium","large"],
    
-             "price":[]},
+             "price":[300,550,830]},
 
              {"tag":"Veg Pizza",
  
-             "items":[],
+              "items":["peppy paneer","Mexican green wave","Veggie paradise","veg extravaganza","deluxe veggie","paneer Makhani","creamy tomato pasta "],
   
-             "size":[],
+              "size":["small","medium","large"],
    
-             "price":[]},
+              "price":[250,499,799]},
              
              {"tag":"Beverages",
  
-             "items":[],
+              "items":["pepsi","slice","7up","mirinda","nimbooz"],
   
-             "size":[],
+              "size":[],
    
-             "price":[]},   
+              "price":[50]},   
+
             {"tag":"Slides",
  
-             "items":[],
+             "items":["garlic breadsticks","taco mexicana veg","Butterscotch mouse cake"],
   
              "size":[],
    
-             "price":[]}
+             "price":[99]}
 
 ]
 
