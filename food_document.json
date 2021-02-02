@@ -1,0 +1,37 @@
+ 
+
+{"intents":[
+            {"tag":"Non-Veg Pizza",
+ 
+             "items":[],
+  
+             "size":[],
+   
+             "price":[]},
+
+             {"tag":"Veg Pizza",
+ 
+             "items":[],
+  
+             "size":[],
+   
+             "price":[]},
+             
+             {"tag":"Beverages",
+ 
+             "items":[],
+  
+             "size":[],
+   
+             "price":[]},   
+            {"tag":"Slides",
+ 
+             "items":[],
+  
+             "size":[],
+   
+             "price":[]}
+
+]
+
+}
