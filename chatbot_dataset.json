@@ -2,7 +2,7 @@
          
        {"tag": "greetings",
           "patterns": ["Hello","Hi","Hey","Hi there"],
-          "responses": ["Dear customer welcome to dominos pizza services"],
+          "responses": ["Dear customer welcome to Dominator pizza services"],
           "context": [""]
           },
 
@@ -13,13 +13,11 @@
          },
    
          {"tag":"order_food",
-         "patterns":["order food","food order","order","I want to order food",
-                    "Can I have some pizza","Are pizza's available","What variety of pizzas are available","Is pizza available"
-                    ,"Some pizza please","Can I order pizza","Are veg pizzas available","Are non veg pizzas available","I am hungry",
+         "patterns":["order food","food order","order","I want to order food"
+                    ,"What variety of foods are available","Is food available"
+                    ,"Can I order pizza","Are veg pizzas available","Are non veg pizzas available","I am hungry",
                     "I want some food","is food available","Can I view the menu please","Menu","Menu please","What is the menu","What can i order"
-                    ,"pizza","Is combo available","Combo please","Combo","What is today's menu","What food is there today","Is food there",
-                    "Best pizza in town","Best pizza in city","Best non-veg pizza in town","Best veg pizza in town","Best veg pizza in city",
-                    "Best non veg pizza in city","Veg Pizza","Non-veg pizza","Can you show menu","Can I see the menu","What have you got","What can I get","Show menu",
+                    ,"Is combo available","Combo please","Combo","What is today's menu","What food is there today","Is food there","Can you show menu","Can I see the menu","What have you got","What can I get","Show menu",
                     "Show what I can get","Menu","menu","I am hungry"],
          "responses": ["Explore our menu"],
          "context":[""]
@@ -45,7 +43,7 @@
          
           "patterns":["add","add item","add items"],
    
-          "responses":[""],
+          "responses":["choose the category to add"],
   
           "context":[""]
          },
@@ -54,7 +52,7 @@
          
           "patterns":["remove","remove items","remove item"],
    
-          "responses":[" "],
+          "responses":["type the item you want to remove"],
   
           "context":[""]
          },
@@ -66,8 +64,8 @@
          },
   
          {"tag":"food_item",
-         "patterns":["chicken dominator"],
-         "responses":["what size do you prefer?"],
+         "patterns":["chicken pepperoni","Pepper Barbecue","Dominator","chicken Sausage","pepper barbecue and onion","Indi chicken tikka","Moroccan Spice Pasta Pizza","peppy paneer","Mexican green wave","Veggie paradise","veg extravaganza","deluxe veggie","paneer Makhani","creamy tomato pasta ","pepsi","slice","7up","mirinda","nimbooz","garlic breadsticks","taco mexicana veg","Butterscotch mouse cake"],
+         "responses":["added to cart"],
          "context":[""]
          },
 
@@ -80,7 +78,7 @@
 
          {"tag": "Non-Veg Pizza",
           
-          "patterns": ["Non-veg Pizza","Non-Veg pizzas","Non-Veg pizzas please","Non-Veg pizza please","Non-Veg","Non-Veg please"],
+          "patterns": ["Non-veg Pizza","Non-Veg pizzas","Non-Veg pizzas please","Non-Veg pizza please","Non-Veg","Non-Veg please","nonveg","non veg "],
           "responses": ["Our Range of Non-Veg pizzas are"],
           "context": [""]
           },
@@ -93,7 +91,7 @@
           },
 
           {"tag": "Beverages",
-           "patterns": ["Beverages","Beverage","Beverages please","Beverage please","Some beverage please","Some beverages please"],
+           "patterns": ["Beverages","Beverage","Beverages please","Beverage please","Some beverage please","Some beverages please","drinks","cool drinks","hard drinks"],
            "responses": ["Our Range of Beverages are"],
            "context": [""]
           },
