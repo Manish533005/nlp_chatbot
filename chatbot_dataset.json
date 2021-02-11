@@ -1,4 +1,8 @@
-{"intents":[
+
+       
+
+        
+         {"intents":[
          
        {"tag": "greetings",
           "patterns": ["Hello","Hi","Hey","Hi there"],
@@ -59,12 +63,12 @@
       
          {"tag":"confirm_order",
          "patterns":["confirm order","I want to confirm order","confirm"," want to confirm order"],
-         "responses":["Once you confirm your order you can't edit or cancel your order"],
+         "responses":["Your order confirmed"],
          "context":[""]
          },
   
          {"tag":"food_item",
-         "patterns":["chicken pepperoni","Pepper Barbecue","Dominator","chicken Sausage","pepper barbecue and onion","Indi chicken tikka","Moroccan Spice Pasta Pizza","peppy paneer","Mexican green wave","Veggie paradise","veg extravaganza","deluxe veggie","paneer Makhani","creamy tomato pasta ","pepsi","slice","7up","mirinda","nimbooz","garlic breadsticks","taco mexicana veg","Butterscotch mouse cake"],
+         "patterns":["chicken pepperoni","Pepper Barbecue","chicken Sausage","Moroccan Spice Pasta Pizza","peppy paneer","Mexican green wave","Veggie paradise","veg extravaganza","deluxe veggie","paneer Makhani","pepsi","slice","7up","mirinda","nimbooz","garlic breadsticks","taco mexicana veg","veg Parcel","lava cake"],
          "responses":["added to cart"],
          "context":[""]
          },
