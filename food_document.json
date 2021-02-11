@@ -2,10 +2,12 @@
 
  
 
+ 
+
 {"intents":[
             {"tag":"Non-Veg Pizza",
  
-             "items":["chicken pepperoni","Pepper Barbecue","Dominator","chicken Sausage","pepper barbecue and onion","Indi chicken tikka","Moroccan Spice Pasta Pizza"],
+             "items":["chicken pepperoni","Pepper Barbecue","chicken Sausage","Moroccan Spice Pasta Pizza"],
   
              "size":["small","medium","large"],
    
@@ -29,7 +31,7 @@
 
             {"tag":"Slides",
  
-             "items":["garlic breadsticks","taco mexicana veg","Butterscotch mouse cake"],
+             "items":["garlic breadsticks","taco mexicana veg","veg Parcel","lava cake"],
   
              "size":[],
    
