@@ -1,6 +1,5 @@
 Flask>=1.0,<=1.1.2
 spacy
 fuzzywuzzy
-tensorflow
 keras
 en_core_web_sm
