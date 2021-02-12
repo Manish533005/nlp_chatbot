@@ -1,8 +1,7 @@
 
        
 
-        
-         {"intents":[
+        {"intents":[
          
        {"tag": "greetings",
           "patterns": ["Hello","Hi","Hey","Hi there"],
@@ -19,7 +18,7 @@
          {"tag":"order_food",
          "patterns":["order food","food order","order","I want to order food"
                     ,"What variety of foods are available","Is food available"
-                    ,"Can I order pizza","Are veg pizzas available","Are non veg pizzas available","I am hungry",
+                    ,"Can I order pizza","Are veg available","Are non veg available","I am hungry",
                     "I want some food","is food available","Can I view the menu please","Menu","Menu please","What is the menu","What can i order"
                     ,"Is combo available","Combo please","Combo","What is today's menu","What food is there today","Is food there","Can you show menu","Can I see the menu","What have you got","What can I get","Show menu",
                     "Show what I can get","Menu","menu","I am hungry"],
@@ -89,7 +88,7 @@
 
           {"tag": "Veg Pizza",
           
-           "patterns": ["veg Pizza","Veg pizzas","Veg pizzas please","Veg pizza please","Veg","Veg please"],
+           "patterns": [" veg Pizza","veg pizzas","veg pizzas please","veg pizza please","veg","veg pizza"],
            "responses": ["Our Range of Veg pizzas are"],
            "context": [""]
           },
@@ -112,4 +111,5 @@
        
 
         
+         
          
