@@ -3,3 +3,4 @@ spacy
 fuzzywuzzy
 tensorflow
 keras
+en_core_web_sm
