@@ -1,5 +1,6 @@
 Flask>=1.0,<=1.1.2
-spacy
 fuzzywuzzy
+numpy==1.18.4
 keras
-en_core_web_sm
+spacy==2.1.9
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz#egg=en_core_web_sm
