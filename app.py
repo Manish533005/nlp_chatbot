@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
-from tensorflow import keras
 from keras.models import load_model
 import json
 import random
