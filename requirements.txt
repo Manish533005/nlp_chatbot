@@ -1,4 +1,3 @@
-git rm ProcFile -f
 Procfile
 Flask>=1.0,<=1.1.2
 fuzzywuzzy
