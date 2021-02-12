@@ -1,5 +1,6 @@
 
 Flask>=1.0,<=1.1.2
+tensorflow==2.3.2
 keras
 fuzzywuzzy
 numpy==1.18.4
