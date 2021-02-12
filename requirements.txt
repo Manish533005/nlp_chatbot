@@ -1,4 +1,4 @@
-Procfile
+
 Flask>=1.0,<=1.1.2
 tensorflow==1.15
 fuzzywuzzy
