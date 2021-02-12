@@ -1,5 +1,5 @@
 
-Flask>=1.0,<=1.1.2
+Flask==1.1.2
 tensorflow==2.3.2
 fuzzywuzzy
 numpy==1.18.4
